@@ -19,7 +19,7 @@ public class MyTomcat {
 		ServerSocket serverSocket=null;
 		try {
 			serverSocket = new ServerSocket(port);
-			System.out.println("mytomcat start....");
+			System.out.println("myTomcat start....");
 			while(true) {
 				Socket socket = serverSocket.accept();
 				InputStream inputStream = socket.getInputStream();

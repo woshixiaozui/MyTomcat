@@ -37,6 +37,7 @@ public class MyResponse {
 		outputStream.write(stringBuffer.toString().getBytes());
 		if(fileHttpResponse!=null) {
 			outputStream.write(fileHttpResponse.getBytes());
+			
 		}
 		outputStream.close();
 	}

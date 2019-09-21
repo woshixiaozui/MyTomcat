@@ -43,6 +43,7 @@ public class MyTomcat {
 			}
 		}
 	}
+	//今天天气很好
 	private void dispatch(MyRequest myRequest, MyResponse myResponse){
 		String clazz = servletMap.get(myRequest.getUrl());
 		if(clazz!=null) {

@@ -19,7 +19,7 @@ public class FindGirlServlet extends MyServlet{
 	public void doGet(MyRequest myRequest, MyResponse myResponse) {
 		// TODO Auto-generated method stub
 		try {
-			myResponse.write("../com/target/test.html");
+			myResponse.write("../resources/test.html");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
